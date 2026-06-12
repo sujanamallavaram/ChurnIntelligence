@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Streamlit Dashboard",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "streamlit", "run", "app.py"],
+      "port": 8501,
+      "description": "Main Churn Insight & Intervention Portal Streamlit server"
+    },
+    {
+      "name": "Docker Compose (Streamlit)",
+      "runtimeExecutable": "docker-compose",
+      "runtimeArgs": ["up"],
+      "port": 8501,
+      "description": "Containerized Streamlit application via Docker"
+    }
+  ]
+}

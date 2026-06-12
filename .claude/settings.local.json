@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Sujana\\\\project1\" -File | Select-Object Name, @{Name='Size\\(KB\\)';Expression={[math]::Round\\($_.Length/1KB,1\\)}} | Sort-Object Name)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(docker --version)",
+      "PowerShell(docker-compose --version)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit: Churn Intelligence Portal v2.2.0 - Production ready *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git commit -m 'docs: Enhance GitHub README with visual descriptions and developer info *)",
+      "Bash(git commit -m 'docs: Add final GitHub push instructions *)",
+      "Bash(git reset *)",
+      "Bash(git commit -m 'Churn Intelligence Portal - Production Ready *)"
+    ]
+  }
+}
